@@ -25,21 +25,27 @@ img{
 	aspect-ratio: 1/1;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
 
 .container2 {
 	display: grid;
 	gap: 10px;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-template-rows: auto 1fr;
+	grid-template-rows: auto 1fr auto;
 	justify-items:  start;
-
 }
+
+footer {
+    padding: 10px;
+    text-align: center;
+    min-height:50px; 
+  }
 
 .zone {
 	display: grid;

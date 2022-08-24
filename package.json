@@ -1,0 +1,22 @@
+{
+  "name": "cat-finder",
+  "version": "1.0.0",
+  "description": "A machine learning web application that allows you to identify cat breeds and sign-up for weekly cat memes! Additionally, scan and filter through the cat meme bank :)",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claire-shen/cat-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claire-shen/cat-finder/issues"
+  },
+  "homepage": "https://github.com/claire-shen/cat-finder#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

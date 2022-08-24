@@ -43,6 +43,7 @@ body{
 }
 
 footer {
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
     text-align: center;
     min-height:50px; 
